@@ -1,0 +1,47 @@
+body {
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+a:visited {
+    color: black;
+}
+.menu-list {
+    list-style: none;
+    padding: 0px;
+
+    width: 358px;
+    height: 196px;
+
+    background: #E5E5E5;
+    border: 1px solid black;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 10px; 
+}
+
+.menu-item {
+
+    padding: 10px 20px; 
+}
+
+li:active{
+    background: white;
+    border: 1px solid black;
+    border-radius: 10px; 
+}
+li:focus {
+    border: 1px solid black;
+}
+/* элемент с наведением*/
+li:nth-child(2):hover {
+    background-color: #9C9C9C;
+    ;
+}
+li:nth-child(2) {
+    width: 316px;
+}
+
